@@ -1,0 +1,84 @@
+{
+	"Connectable": true,
+	"ConnectionState": "Connected",
+	"ErrorState": "disconnect-failure",
+	"GUID": "{e8d2561a-f303-4cb3-8ad3-38cf86c39385}",
+	"IPAddressConfigType": "DHCP",
+	"IPConfigs": [
+		{
+			"Gateway": "10.18.208.1",
+			"IPAddress": "10.18.208.84",
+			"NameServers": [
+				"10.10.24.51",
+				"10.32.24.51"
+			],
+			"RoutingPrefix": 20,
+			"Type": "IPv4",
+			"WebProxyAutoDiscoveryUrl": ""
+		}
+	],
+	"MacAddress": "28:CD:C4:07:8E:19",
+	"Metered": false,
+	"Name": "HCPS",
+	"NameServersConfigType": "DHCP",
+	"Priority": 0,
+	"ProxySettings": {
+		"Type": "WPAD"
+	},
+	"SavedIPConfig": {
+		"ExcludedRoutes": [],
+		"Gateway": "10.18.208.1",
+		"IPAddress": "10.18.208.84",
+		"IncludedRoutes": [],
+		"NameServers": [
+			"10.10.24.51",
+			"10.32.24.51"
+		],
+		"RoutingPrefix": 20,
+		"SearchDomains": [],
+		"Type": "IPv4"
+	},
+	"Source": "DevicePolicy",
+	"TrafficCounterResetTime": 0,
+	"Type": "WiFi",
+	"WiFi": {
+		"AllowGatewayARPPolling": true,
+		"AutoConnect": true,
+		"BSSID": "70:db:98:e4:b8:e0",
+		"EAP": {
+			"AnonymousIdentity": "",
+			"ClientCertPKCS11Id": "",
+			"ClientCertType": "PKCS11Id",
+			"DomainSuffixMatch": [],
+			"Identity": "schooladjoin",
+			"Outer": "PEAP",
+			"SaveCredentials": true,
+			"ServerCAPEMs": [],
+			"SubjectAlternativeNameMatch": [],
+			"SubjectMatch": "",
+			"TLSVersionMax": "",
+			"UseProactiveKeyCaching": false,
+			"UseSystemCAs": false
+		},
+		"Frequency": 5320,
+		"FrequencyList": [
+			2412,
+			2462,
+			5180,
+			5320,
+			5500,
+			5540,
+			5560,
+			5600,
+			5620,
+			5660,
+			5720,
+			5765
+		],
+		"HexSSID": "48435053",
+		"HiddenSSID": true,
+		"SSID": "HCPS",
+		"Security": "WPA-EAP",
+		"SignalStrength": 78
+	}
+}
